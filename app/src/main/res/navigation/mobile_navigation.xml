@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dietapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+
+
+
+    <activity
+        android:id="@+id/nav_photos"
+        android:name="com.example.dietapp.PhotosActivity"
+        android:label="@string/menu_photos"
+        tools:layout="@layout/activity_photos" />
+    <activity
+        android:id="@+id/nav_contact"
+        android:name="com.example.dietapp.ContactActivity"
+        android:label="@string/menu_photos"
+        tools:layout="@layout/activity_contact" />
+    <activity
+        android:id="@+id/nav_bmi"
+        android:name="com.example.dietapp.BMIActivity"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/activity_bmi" />
+    <activity
+        android:id="@+id/nav_team"
+        android:name="com.example.dietapp.TeamActivity"
+        android:label="@string/menu_team"
+        tools:layout="@layout/activity_team" />
+    <activity
+        android:id="@+id/nav_info"
+        android:name="com.example.dietapp.FindUsActivity"
+        android:label="@string/menu_info"
+        tools:layout="@layout/activity_find_us" />
+</navigation>

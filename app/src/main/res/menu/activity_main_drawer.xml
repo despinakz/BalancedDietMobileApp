@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_photos" />
+
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_team" />
+
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
+            android:title="@string/menu_bmi" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/menu_contact" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/menu_info" />
+        <!--item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" /-->
+    </group>
+</menu>

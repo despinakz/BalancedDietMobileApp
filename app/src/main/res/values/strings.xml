@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Balanced Diet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BALANCED DIET</string>
+    <string name="nav_header_subtitle">Nutrition &amp; Diet Center</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="created">Created by Despina Kozoni. All rights reserved.</string>
+    <!--string name="action_settings">Settings</string-->
+
+    <!-- Drawer Menu (strings) -->
+    <string name="menu_home">Who We Are?</string>
+    <!--string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string-->
+    <string name="menu_photos">Photos</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_bmi">Your BMI</string>
+    <string name="menu_team">Our Team</string>
+
+    <!-- Who We Are (strings) -->
+    <string name="whoWeAre_title">Who We Are?</string>
+    <string name="whoWeAre_details">
+        Welcome to Balanced Diet Center, your trusted place to find credible information on healthy eating and lifestyle.
+        With its team of volunteer experts, who sift through the available information, the Balanced Diet Center brings you evidence
+        based and peer-reviewed articles.
+    </string>
+
+
+    <!-- Contact Us Form (strings) -->
+    <string name="contactTitle">Contact Us Form</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">e-mail</string>
+    <string name="save">Save</string>
+    <string name="fNameEmptyNotice">Please enter your first name!</string>
+    <string name="lNameEmptyNotice">Please enter your last name!</string>
+    <string name="phoneEmptyNotice">Please enter your phone number!</string>
+    <string name="emailEmptyNotice">Please enter your email address!</string>
+    <string name="fNameValidNotice">Please enter a valid first name!</string>
+    <string name="lNameValidNotice">Please enter a valid last name!</string>
+    <string name="phoneValidNotice">Please enter a valid phone number!</string>
+    <string name="emailValidNotice">Please enter a valid email address!</string>
+
+    <!-- BMI Form (strings) -->
+    <string name="bmiTitle1">Your BMI</string>
+    <string name="bmiTitle">Calculate your BMI (Body Mass Index)</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="height">Height (cm)</string>
+    <string-array name="gender_array">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string name="calc">Calculate</string>
+    <string name="weightEmptyNotice">Please enter your weight!</string>
+    <string name="weightValidNotice">Please enter a valid weight!</string>
+    <string name="heightEmptyNotice">Please enter your height!</string>
+    <string name="heightValidNotice">Please enter a valid height!</string>
+
+    <!-- Our Team (strings) -->
+    <string name="ourTeam">Our Team</string>
+
+
+    <!-- Find Us -->
+    <string name="menu_info">Find Us</string>
+    <string name="menu_infoAddr">915 Lancaster Ave, Bryn Mawr, PA 19010, United States</string>
+    <string name="menu_infoTel">+1 215-398-0000</string>
+
+</resources>
